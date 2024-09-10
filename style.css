@@ -1,0 +1,47 @@
+   *{
+     margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+   width:100%;
+  }
+  #logo{
+    padding:140px;
+    position: absolute;
+    top:13%;
+  
+  }
+  #meta{
+    
+   padding-left:110px;
+   padding-right:110px;
+    position: absolute;
+    top:90%;
+  }
+  #from{
+    position: absolute;
+    text-align:center;
+    bottom:9%;
+       background-image: url("https://i.postimg.cc/rpj98Th9/1000-F-294262564-SVILZ8l-K2-GB3w-TSt-T4-Rr-Ya-HG683-Vwp-UF.jpg");
+ background-size: cover;
+background-position: center;
+ background-clip: text;
+-webkit-background-clip: text;
+ color: transparent;
+ font-family: sans-serif;
+     } 
+
+  .open{
+    position: absolute;
+    left:40%;
+    top:20%;
+    text-decoration: none;
+    font-size: 20px;
+   color:black;
+   text-transform: uppercase;
+   animation:bol 2s infinite;
+  }
+  @keyframes bol{
+    0%{font-size:10px};
+   
+    100%{font-size:30px};
+  }

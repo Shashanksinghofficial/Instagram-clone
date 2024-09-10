@@ -1,0 +1,155 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+  
+}
+#header{
+  height:70px;
+  width:100%;
+  background-color:white;
+  box-shadow:0px 0px 6px#C7C7C7
+}
+  #insta{
+    margin-left:10px;
+  height:80px; 
+  width:140px;
+  }
+ #arrow{
+  margin-top:-55px;
+  position: absolute;
+  left:150px;
+  }
+ #like{
+margin-top:-55px;
+  position: absolute;
+ right:90px;
+ }
+ #massage{
+margin-top:-55px;
+position: absolute;
+right:20px; 
+}
+.panel{
+   position: absolute ;
+   border-radius:10px;
+   margin-left:20px;
+  height:100px; 
+  width:150px;
+  background-color:white;
+ box-shadow:0px 0px 10px #A8A8A8;
+ z-index:2;
+ display:none;
+}
+.panel a{
+  position:relative;
+   text-decoration:none;
+   margin-left:20px;
+   color:black;
+   cursor: pointer;
+}
+ .panel p{
+   position: absolute;
+   left:120px;
+   margin-top:-20px;
+ }
+#story-section{
+   display: flex;
+  overflow-x:auto;
+  
+}
+ 
+ #story-section :nth-child(3){
+       margin-left:20px;
+}
+  .myStory1{
+position: absolute;
+height:90px;
+width:90px;
+margin-top:25px;
+clip-path: polygon(50% 0%, 85% 0, 100% 15%, 100% 85%, 85% 100%, 0 100%, 0 0);
+border-left:10px solid white;
+z-index:1;
+box-shadow:10px 10px 20px black;  
+  }
+
+
+
+.myStory{
+  position:relative;
+  left:90px;
+  height:90px;
+  width:100px;
+  margin-top:30px;
+clip-path: circle(50% at 50% 50%);
+box-shadow: 10px 10px 20px black;
+
+  border:1px solid #B6B6B6;
+}
+
+#add{
+  position: absolute;
+  left:78px;
+  top:150px;
+  background-color: white;
+  border:2px solid white;
+  border-radius:10px;
+  z-index:1;
+}
+span{
+  font-size:12px;
+  position:absolute;
+  top:75px;
+  left:12px;
+  font-family:serif;
+  text-shadow:2px 2px 4px black;
+}
+.relative{
+  position:relative;
+  left:45px;
+  top:25px;
+  font-size:7px;
+font-family:serif;
+text-shadow: 0px 0px 2px black;
+}
+
+#footer{
+  height:50px;
+  width:100%;
+  background-color:white;
+  border-top:1px solid #E2E2E2;
+  position:fixed;
+  bottom:0px;
+  margin-bottom:50px;
+  z-index:4;
+  margin-bottom:0px;
+}
+.icon{
+  position:relative;
+  bottom:-13px;
+  left:2%;
+}
+.icon-s{
+  position: absolute;
+ top:15px;
+  left:25%;
+}
+.icon-t{
+  position: relative;
+ top:-7px;
+  left: 50%;
+}
+.icon-f{
+  position: absolute;
+ top:15px;
+  right:25%;
+}
+.profile{
+  height:30px;
+  width:30px;
+  clip-path:circle(50%);
+  z-index:20px;
+  position: absolute;
+  right:2%;
+  top:10px;
+}
